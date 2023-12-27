@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Welcome to Awesome Books App</title>
+</head>
+<body>
+  <header>
+    <h1>My Books Collection</h1>
+    <nav>
+      <a href="#books" class="list active">Explore Books</a>
+      <a href="#form" class="add-new">Add a Book</a>
+      <a href="#contact" class="contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section id="books" class="active">
+    <h2>Discover Amazing Books</h2>
+    <div class="all-books">
+      <!-- Books content will be displayed here -->
+    </div>
+  </section>
+
+  <section id="form">
+    <form class="new-book">
+      <span class="successMsg">Book Added Successfully!</span>
+      <h2>Add a New Book</h2>
+      <input type="text" placeholder="Book Title" class="title" />
+      <input type="text" placeholder="Author's Name" class="author" />
+      <button type="submit" class="add">Add Book</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p>
+      Have any questions or just want to say "Hello"?
+      <br />
+      Feel free to reach out to us!
+    </p>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
